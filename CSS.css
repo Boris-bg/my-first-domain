@@ -1,0 +1,76 @@
+html {
+    font-family:Arial, 'Times New Roman';
+}
+h1, h2, p{
+    text-align:center;
+    color:rgb(200, 200, 200);
+}
+body {
+    background-image: url(background.jpg);
+    background-position: 0px 0px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    font-size: 44px
+}
+h2 {
+    font-size: 30px
+}
+p {
+    font-size:27px;
+    line-height:2em;
+} 
+a {
+    text-decoration:none;
+    color: rgb(0, 100, 200);
+}
+a:hover {
+    color:rgb(150, 0, 0)
+}
+.button, .button1, .button2{
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+}
+.button{
+    background-color: rgba(0, 100, 255, 0.900);
+    border-radius: 7px;
+    font-size: 27px;
+    padding: 7px;
+}
+.button1{
+    background-color: rgba(0, 100, 255, 0.700);
+    float: left;
+    font-size: 21px;
+    padding: 7px;
+    position: sticky;
+    top: 0;
+}
+.button2{
+    background-color: rgba(0, 100, 255, 0.900);
+    border-radius: 7px;
+    font-size: 24px;
+    padding: 5px;
+}
+.button:hover{
+    color: rgb(0, 150, 255);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button1:hover{
+    color: rgb(0, 150, 255);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button2:hover{
+    color: rgb(0, 150, 255);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/*body {
+    background-color:rgba(1, 114, 1, 0.671)
+}*/ /*кода е за цвят на background*/
